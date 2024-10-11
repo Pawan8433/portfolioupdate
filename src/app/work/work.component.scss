@@ -40,10 +40,10 @@ section {
 
   h2 {
     font-size: 32px;
-    align-items: flex-start;
-    align-self: flex-start;
+    align-items: center;
+    align-self: center;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
     color: #3164db;
   }
 
@@ -55,9 +55,11 @@ section {
 
 /* Style the projects section */
 .projects-section-header {
+  
   font-size: 32px;
   margin-bottom: 20px;
   color: #e9e6e6;
+  text-align: center; 
 }
  
 .projects-grid {
@@ -96,8 +98,10 @@ section {
 
 
 
+
 /* Media Queries for Responsiveness */
 @media screen and (max-width: 768px) {
+  
   section {
     background-color: #333;
     padding: 100px 10px 0 10px;
@@ -118,7 +122,8 @@ section {
 
   h2 {
     font-size: 28px;
-    padding-top: 40px;
+    align-items: center;
+    margin-top: 20px;
   }
 
   #navbar {
@@ -141,8 +146,10 @@ section {
     padding: 20px;
   }
 
-  .projects-section-header {
+  .projects-section-header  {
+
     font-size: 24px;
+    text-align: center;
   }
 
   .project-title {
